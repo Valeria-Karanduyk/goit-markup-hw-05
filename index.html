@@ -444,80 +444,82 @@
 </div>
     </footer>
     <!-- Modal -->
-    <div class="backdrop">
+    <div class="backdrop is-open">
 <div class="modal">
 <button type="button" class="modal-close">
-    <svg class="solutions-close-icon" height="8" width="8">
-        <use href="" />
+    <svg class="modal-close-icon" height="8" width="8">
+        <use href="./images/icons.svg#icon-close-black" />
       </svg>
 </button>
 
-<p class="modal-title title">
+<p class="modal-title">
     Leave your contacts and we will call you back
 </p>
 <form class="modal-form">
     <div class="modal-box">
         <label class="modal-name" for="user-name">Name</label>
-    <div class="solution-name-box">
+    <div class="modal-name-box">
     <input class="modal-input"
     type="text" 
     name="user-name"
     id="user-name" 
     />
-    <svg class="solutions-form-icon" height="24" width="18">
-        <use href="" />
+    <svg class="modal-form-icon" height="24" width="18">
+        <use href="./images/icons.svg#icon-person-black" />
       </svg>
     </div>
     </div>
     <div class="modal-box">
-        <label class="modal-name" for="user-name">Name</label>
-    <div class="solution-name-box">
+        <label class="modal-name" for="user-name">Phone</label>
+    <div class="modal-name-box">
     <input class="modal-input"
     type="text" 
     name="user-tel"
     id="user-tel" 
     />
-    <svg class="solutions-form-icon" height="24" width="18">
-        <use href="" />
+    <svg class="modal-form-icon" height="24" width="18">
+        <use href="./images/icons.svg#icon-phone-black" />
       </svg>
     </div>
     </div>
     <div class="modal-box">
-        <label class="modal-name" for="user-name">Name</label>
-    <div class="solution-name-box">
+        <label class="modal-name" for="user-name">Email</label>
+    <div class="modal-name-box">
     <input class="modal-input"
     type="text" 
     name="user-email"
     id="user-email" 
     />
-    <svg class="solutions-form-icon" height="24" width="18">
-        <use href="" />
+    <svg class="modal-form-icon" height="24" width="18">
+        <use href="./images/icons.svg#icon-email-black" />
       </svg>
     </div>
     </div>
  <div class="modal-box modal-box-textarea">
 <label class="modal-name" for="user-comment">Comment</label>
-<textarea class="solution-name-textarea"
+<textarea class="modal-name-textarea"
 name="user-comment" 
 id="user-cxomment" 
 placeholder="Text input"
 ></textarea>
  </div>
-<div class="solution-checkbox">
-<input class="checkbox-input" 
+ <!-- Checkbox -->
+<div class="modal-checkbox">
+<input 
+class="checkbox-input" 
 type="checkbox"
 name="user-privacy"
 value="true"
-id="iser-privacy"
->
-<label class="solution-accept" for="user-privacy">
-<span class="solution-accept-span">
-    <svg class="solutions-span-icon" height="8" width="10">
-        <use href="" />
+id="user-privacy"
+/>
+<label class="modal-accept" for="user-privacy">
+<span class="modal-accept-span">
+    <svg class="modal-span-icon" height="8" width="10">
+        <use href="./images/icons.svg#icon-tick" />
       </svg>
 </span>
 I accept the terms and conditions of the
-<a class="solution-accept-link">Privacy Policy</a>
+<a class="modal-accept-link">Privacy Policy</a>
 </label>
 </div>
 
