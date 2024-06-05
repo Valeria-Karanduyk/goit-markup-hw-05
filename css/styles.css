@@ -723,11 +723,11 @@ padding: 72px 24px 24px 24px;
 }
 
 /* Checkbox */
-.visually-hidden{
+.footer-checkbox-box{
     margin-bottom: 24px;
 }
 
-.checkbox-input{
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -760,7 +760,7 @@ padding: 72px 24px 24px 24px;
     margin-right: 8px;
 }
 
-.checkbox-input:checked +.modal-accept > .modal-accept-span{
+.visually-hidden:checked +.modal-accept > .modal-accept-span{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
